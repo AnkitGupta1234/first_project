@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background-image:url("iit.jpg");
+}
+polygon
+{
+	fill:#1B2848;
+	stroke:none;
+	cursor:pointer;
+}
+a:hover polygon
+{
+	fill:#8F90B8;
+	stroke:none;
+	
+}
+a:hover text{
+	fill:black;
+}
+svg
+{
+	height:150px;
+	width:1500px;
+}
+.hex_container
+{
+	background-color:#1B2848;
+	height:50px;
+	width:`100%;
+}
+text{
+	fill:white;
+}
+.active
+{
+	fill:#8F90B8;
+	stroke:none;
+}
+.body_hex
+{
+	fill:gray;
+	fill-opacity:0.2;
+	stroke:white;
+}
